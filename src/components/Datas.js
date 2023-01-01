@@ -8,10 +8,6 @@ import Business from '../assets/business.svg';
 import Number_1 from '../assets/number_1.svg';
 import Number_2 from '../assets/number_2.svg';
 import Number_3 from '../assets/number_3.svg';
-import Slider_1 from '../assets/slide_1.svg';
-import Slider_2 from '../assets/slide_2.svg';
-import Slider_3 from '../assets/slide_3.svg';
-import Slider_4 from '../assets/slide_4.svg';
 
 const Card_data = [
     {

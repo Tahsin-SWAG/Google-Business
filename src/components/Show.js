@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { Typography } from '@mui/material'
 import {Box , Container} from '@mui/system'
 import { Show_title , Show} from './Datas'

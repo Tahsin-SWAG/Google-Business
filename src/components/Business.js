@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { Typography } from "@mui/material";
 import { Container , Box} from "@mui/system";
 import { Busines } from "./Datas";

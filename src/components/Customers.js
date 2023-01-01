@@ -1,9 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import { useState } from "react";
 import { Customer } from "./Datas";
-import {Button} from '@mui/material';
 import customer from '../assets/customer.svg'
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';

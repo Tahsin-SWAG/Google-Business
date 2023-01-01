@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import {Box , Container} from '@mui/system';
 import {Typography} from '@mui/material';
-import stan from '../assets/standout_photo.svg';
 import {Card_data} from './Datas';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
