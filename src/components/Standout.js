@@ -24,7 +24,7 @@ export default function Standout() {
                 </Box>
   <Box sx={{display:{xs:'block' , md:'flex' , marginTop:'7%'}}}>
     {Card_data.map((item) => ( 
-  <Card sx={{width:{xs:'100%' , md:345 ,margin:'3%' , marginTop:{xs:'4%' , md:'0%'} , backgroundColor:'#ffffff'}}}>
+  <Card sx={{width:{xs:'100%' , md:345 ,margin:{xs:'' ,md:'3%'} , backgroundColor:'#ffffff'}}}>
       <CardActionArea>
         <CardMedia
           component="img"
