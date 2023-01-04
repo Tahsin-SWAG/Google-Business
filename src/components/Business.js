@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Typography } from "@mui/material";
+import { Typography , Button} from "@mui/material";
 import { Container , Box} from "@mui/system";
 import { Busines } from "./Datas";
 
@@ -22,8 +22,9 @@ export default function Business() {
                     <Typography sx={{color:'grey',marginTop:'2%'}}>{item.description}</Typography>
                 </Box>
             ))}
+         <Button variant="contained" sx={{marginLeft:{xs:'40%' , md:'20%'} , marginTop:{xs:'5%' , md:'10%'}}}>Install</Button>
         </Box>
-       
+        
     </Container>
    </Box>
  )

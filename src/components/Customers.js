@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Typography } from "@mui/material";
+import { Typography , Button} from "@mui/material";
 import { Box, Container } from "@mui/system";
 import { Customer } from "./Datas";
 import customer from '../assets/customer.svg'
@@ -35,6 +35,7 @@ export default function Customers(){
                    </AccordionDetails>
                  </Accordion>
                 ))}
+                  <Button variant="contained" sx={{marginLeft:{xs:'40%' , md:'20%'} , marginTop:{xs:'5%' , md:'10%'}}}>Install</Button>
               </Box>
             </Box>
          </Container>
