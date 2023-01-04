@@ -12,132 +12,125 @@ import Number_3 from '../assets/number_3.svg';
 const Card_data = [
     {
         "title":"Free",
-        "description":"Create a Business Profile at no cost",
+        "description":"Install business notes at no cost",
         "card_image":Free
     },
     {
         "title":"Easy",
-         "description":"Manage your profile from Search and Maps",
+         "description":"Easy to modify and add notes",
          "card_image":Easy
     },
     {
-        "title":"Personalized",
-        "description":"Add hours, photos, posts and more",
+        "title":"Options",
+        "description":"Delete add and notification options",
         "card_image":Personalized
     }
 ]
 const Imperession = [
     {
-        "title":" Add essential info",
-        "description":"Add information like your phone number, operating hours, and health and safety measures, so customers know what to expect.",
+        "title":"essential info",
+        "description":"The Notes app is one of the most popular apps that are available on iOS and Android devices. The Notes app allows users to store their notes in a digital form. ",
         "image":""
     } ,
     {
-        "title":"Share photos , your logo , and more",
-        "description":"Show your business's personality with photos, a cover image, your logo, and more to stand out to customers",
+        "title":"Share ideas",
+        "description":"The share in notes app is a great tool for collaborating and sharing ideas. It can be used for brainstorming sessions, project management, and more",
         "image":""   
     },
     {
         "title":"Show who you are",
-        "description":"Add attributes to show your business identifies as Black-owned,women-owned,veteran-owned and is LGBTQ+ friendly so people can learn more about your business",
+        "description":"Notes apps are a very popular way to keep your thoughts organized. They can be used for a variety of tasks such as taking notes, making lists, and even writing full-length articles",
         "image":""
     }
 ]
 
 const Customer = [
     {
-        "Dropdown_title":"Respond to reviews",
-        "Dropdown_description":"Reply to public customer reviews to build trust with new and returning customers."
+        "Dropdown_title":"Respond to your next task",
+        "Dropdown_description":"It is a common practice to use the business notes task to introduce a given section topic. The introduction should be concise and should contain keywords that are relevant to the topic"
     },
     {
-        "Dropdown_title":"Send and recive direct messages",
-        "Dropdown_description":"Messages with customers directly. You can pause messaging or create automated responses any time."
+        "Dropdown_title":"Write your valuable ideas",
+        "Dropdown_description":"When you have ideas, it is important to write them down as soon as possible. That way, you can keep track of them and review them later."
     },
-    {
-       "Dropdown_title":"Post answers to frequenty ask question",
-       "Dropdown_description":"List helpful business info upfront and save time by posting answers to common questions.Even let customers answers question too"
-    }
 ]
 
 const Product = [
     {
-       "Card_title":"Accept food orders and more",
-       "Card_description":" Take orders for delivery and pickup and let customers make reservations. Even add your menu, so people can discover your best dishes.",
+       "Card_title":"Notes app is an easy way to keep track of your thoughts, ideas and to-dos.",
        "Card_image":Product_1
     },
     {
-        "Card_title":"List your products",
-        "Card_description":"Show what’s in your store, so customers know what you sell as soon as they find you online.",
+        "Card_title":"Notes app can be used as a task list or a journal. The app is available on all the major platforms and it has a simple user interface that makes it easy to use",
         "Card_image":Product_2
     },
     {
-        "Card_title":"Offer your services",
-        "Card_description":"Show a list of your business services and provide online quotes, so customers get the info they need to choose you.",
+        "Card_title":"The notes app offers several features that make it easier for users to organize their thoughts in different categories like tasks, events, memories etc.",
         "Card_image":Product_3
     }
 ]
 
 const Busines = [
     {
-        "title":"Know how customers find your business",
-        "description":"Discover what keywords people search to find you, and get insights on calls, reviews, bookings, and more to understand how your business connects with customers.",
+        "title":"Know your dreams is a journaling app that allows users to write their thoughts, feelings and emotions in a private space.",
+        "description":"This app has been designed to help people to be more aware of their dreams and explore them in a safe environment.",
         "image":Business
     }
 ]
 const Slide = [
     {
-        "title":"I always asked customers, ‘What made you call me?’ and oftentimes they tell me, ‘We reached out because of your Business Profile on Google.’",
+        "title":"A business note app is a mobile app that allows users to take notes on their phones",
          "image":"https://as1.ftcdn.net/v2/jpg/02/11/67/02/1000_F_211670204_7aMdAT07XzaL4KJ8nf2xrrZY4P5W1F4y.jpg"
     },
     {
-        "title":"Getting Yogolandia on Google was absolutely key. It truly legitimizes you as a business. It’s  free, there are photos, and we've gotten phenomenal reviews.",
+        "title":"The notes can be shared with others to collaborate on projects or just keep track of what was discussed.",
         "image":"https://guide-images.cdn.ifixit.com/igi/1PbPhuuDIhp5KpSL.large"
     },
     {
-        "title":"We love the insights that we get on searches",
+        "title":"It can be used by students to take notes during lectures and by professionals to take notes during meetings.",
         "image":"https://media.istockphoto.com/id/684680508/photo/young-man-playing-a-guitar.jpg?s=612x612&w=0&k=20&c=EVnAsz_1C-HWethfpmImZ97iF4JTJ57eqBjsvihpoZc="
     },
     {
-        "title":"We’re able to clearly say what we’re about and what our mission is.",
+        "title":"It is not just about the small things, but also about those big moments in life.",
         "image":"https://vesselify.com/wp-content/uploads/2017/08/JohnSuhar_AmyIppolitiDigYoga_20170730-220-scaled.jpg"
     }
 ]
 const Show_title = [
    {
-    "title":"Show the best of your business",
-    "description":"Reach more customers in three simple steps, with your free Business Profile.",
+    "title":"Store the best of your ideas",
+    "description":"This app that can be used to store ideas and thoughts on your phone. ",
     "image":"https://lh3.googleusercontent.com/s73KbGB17huv9hbAPN4K93I9embXlDBcvrKzHZV2a_4DOmXV4nkXuXPPELSqs1jakotZFQpP01BeXsKzc-LbNLd7hyZS63j-e45AGLL2IMwbm8tiViM=w1920-v1-e30"
    }
 ]
 const Show = [
     {
         "title":"Calm",
-        "description":"Create a Business Profile, or manage an existing profile on Search and Maps",
+        "description":" Being calm in the workplace means that you are less likely to get stressed out and start taking your frustrations out on other people, or yourself.",
         "image":Number_1
     },
     {
         "title":"Personalize",
-        "description":"Add hours, photos, and other details and get discovered by customers near you",
+        "description":"Personalized business notes app is a new technology that has the potential to change how we communicate with clients. This new app can help you write an email or a note in a much more personal way.",
         "image":Number_2
     },
     {
         "title":"Manage",
-        "description":"Share updates, respond to reviews, and connect with customers on Google  Manage now",
+        "description":"You can also use the search function when you need to find a specific document or note in your business notes app. This will allow you to find what you are looking for with minimal effort.",
         "image":Number_3
     }
 ]
 const Dropdown = [
     {
-        "title":"Is a Business Profile on Google free?",
-        "description":"Yes, it’s free to create a Business Profile on Google. You can also manage your Business Profile for free, and you only pay for additional features if you choose to use them.",
+        "title":"Why Business notes app is important?",
+        "description":"A business note app is a mobile application that helps you take notes, share them with your team and find the important ones later.",
     },
     {
-        "title":"My business doesn’t have a storefront. Can I still have a Business Profile?",
-        "description":"Yes, you can have a profile if your business doesn’t have a physical address as long as you make in-person contact with customers. You can also have a profile if you’re a hybrid business that serves customers at your business address and visits or delivers directly to customers. You may also have a profile if you’re a service-area business that visits or delivers to customers directly, but doesn't serve customers at its business address, like a plumber or cleaning service."
+        "title":"Why should I use Business notes app?",
+        "description":"Business Notes is a note-taking app that provides a simple and intuitive way to take notes. It was created by developers who wanted to make taking notes easy and enjoyable."
     },
     {
-        "title":"Do I need to download an app to create and manage my profile?",
-        "description":"You can use the Google Maps app to manage your Business Profile on your mobile device. On your desktop, you can manage directly from Google Search in the browser."
+        "title":"How to download Business notes app?",
+        "description":"The business notes app is available on iOS and Android devices. You can also download it on your laptop or desktop computer, so you can access it anywhere you go."
     }
 ]
 export {Card_data , Imperession , Customer , Product , Busines , Slide , Show_title , Show , Dropdown}

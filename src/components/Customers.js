@@ -11,16 +11,16 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 export default function Customers(){
     return(
       <Box sx={{marginTop:'3%'}}>
-         <Typography variant="h4" sx={{display:'flex' , justifyContent:'center'}}>Easily connect with customers</Typography>
-          <Typography variant="p" sx={{display:'flex' , justifyContent:'center'}}>Get your business on Google Search and Maps to help customers find you.</Typography>
+         <Typography variant="h4" sx={{display:'flex' , justifyContent:'center'}}>Easily connect with Business notes</Typography>
+          <Typography variant="p" sx={{display:'flex' , justifyContent:'center'}}>Get your business note app for connect with your nest tasks</Typography>
          <Container>
             <Box sx={{display:{xs:'block' , md:'flex'}}}>
-              <Box>
+              <Box sx={{width:{xs:"100%" ,md:'30%'}}}>
                  <img src={customer} style={{width:'100%'}}/>
               </Box>
-              <Box sx={{marginTop:{xs:'' , md:'20%'}}}> 
+              <Box sx={{marginTop:{xs:'' , md:'15%'} ,marginLeft:{xs:'0%' , md:'20%'}}}> 
                 {Customer.map((item) => (
-                   <Accordion>
+                   <Accordion sx={{width:{xs:'100%' , md:'60%'}}}>
                    <AccordionSummary
                      expandIcon={<ExpandMoreIcon />}
                      aria-controls="panel1a-content"

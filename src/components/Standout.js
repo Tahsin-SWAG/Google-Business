@@ -7,7 +7,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
-import Imperess from '../assets/impress_1.svg';
+import Application from '../assets/application.svg';
 
 export default function Standout() {
     return (
@@ -15,11 +15,11 @@ export default function Standout() {
             <Container>
                 <Box sx={{display:{xs:'block' , md:'flex' , backgroundColor:'#ffffff'}}}>
                     <Box sx={{marginTop:{xs:'10%' , md:'35%'}}}>
-                         <Typography variant='h4'>Stand out on Google with a free Business Profile</Typography>
-                         <Typography>Turn people who find you on Google Search and Maps into new customers with a free Business Profile for your storefront or service area. Personalize your profile with photos, offers, posts, and more.</Typography>
+                         <Typography variant='h4'>Install business notes application for your daily notes and tasks</Typography>
+                         <Typography sx={{color:'grey' , marginTop:'2%'}}>Notes can also be shared with other people by sending them an email invitation or by posting the note to an online service such as Evernote, OneNote, Simplenote, or Google Keep.</Typography>
                     </Box>
-                    <Box sx={{marginTop:'10%' , display:'flex' , justifyContent:'center' , width:{xs:'100%' , md:'110%'}}}>
-                        <img src={Imperess} style={{width:'100%'}}/>
+                    <Box sx={{marginTop:'10%' , display:'flex' , justifyContent:'center' , width:{xs:'100%' , md:'50%'}}}>
+                        <img src={Application} style={{width:'100%' , borderRadius:'5px'}}/>
                     </Box>
                 </Box>
   <Box sx={{display:{xs:'block' , md:'flex' , marginTop:'7%'}}}>

@@ -11,9 +11,9 @@ import Impress from '../assets/impress_1.svg'
 export default function Imperess(){
 
     return(
-      <Box sx={{backgroundColor:'#f8f9fa'}}>
+      <Box sx={{backgroundColor:'#f8f9fa' , marginTop:'5%'}}>
         <Typography variant="h4" sx={{display:'flex', justifyContent:'center'}}>Take charge of your first impression</Typography>
-       <Typography sx={{display:'flex', justifyContent:'center'}}>Highlight essential info and show what makes your business unique, right on your Business Profile.</Typography>
+       <Typography sx={{display:'flex', justifyContent:'center'}}>What people may not know is that they can also be used as a powerful tool for productivity.</Typography>
         <Container sx={{display:{xs:'' , md:'flex'}}}>
             <Box sx={{marginTop:{xs:'5%' , md:'20%'}}}>
                    {Imperession.map((item) => (
@@ -33,8 +33,8 @@ export default function Imperess(){
                    </Accordion>
                    ))}
             </Box>
-            <Box sx={{display:'flex' , justifyContent:'center' , marginTop:{xs:'5%' ,md:''} , marginLeft:{xs:'' ,md:'30%'} , width:{xs:'100%' , md:'120%'}}}>
-                <img src={Impress} style={{width:'100%'}}/>
+            <Box sx={{display:'flex' , justifyContent:'center' , marginTop:{xs:'5%' ,md:''} , marginLeft:{xs:'' ,md:'30%'} , width:{xs:'100%' , md:'70%'}}}>
+                <img src={Impress} style={{width:'100%' , borderRadius:'5px'}}/>
             </Box>
         </Container>
       </Box>
